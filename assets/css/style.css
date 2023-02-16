@@ -1,0 +1,165 @@
+body {
+    background: url('https://media.giphy.com/media/DLpWL4BD2KgTKfPDoN/giphy-downsized-large.gif') no-repeat fixed center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  button{color: blueviolet;}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: #000000 ;
+    display: flex;
+    position:fixed;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    
+}
+
+.navbar ul li{
+    padding: 10px
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+.logo img {
+    width: 32px;
+}
+.logo{
+    margin-left: 0px;
+}
+.redes img {
+    width: 28px;
+}
+.redes{
+    margin-right: 5px;
+}
+
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    align-items: center ;
+    border:1px solid white;
+    margin: 25px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.tarjeta__titulo{
+    font-size: 18px;
+    margin: 5px 0px;
+}
+.tarjeta__img{
+    width: 105%;
+}
+
+.tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer{
+    width: 100%;
+    height: 2rem;
+    background-color:#000000 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+}
+footer p {
+    color: white;
+    font-size: 18px;
+
+
+}
+
+.h1{
+    padding: 100px;
+}
+
+.nosotros-tarjeta{
+    padding: 16px 24px 16px 24px ;
+    margin: 1%;
+   justify-content: center;
+}
+
+.nosotros{font-family: 'Times New Roman', Times, serif;
+    font-size: 350%;
+   color: aquamarine;
+    text-align: center;
+    contain: size 100vh;
+    width: 100%; height: 100%;
+   
+}
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+
+.camisetas-color{
+    color: rgb(255, 255, 255);
+}
+
+.Messi{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aquamarine;
+}
+
+html{
+    width: 100%; height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    width: 100%;
+}
+
+footer{
+    margin-top: auto;
+}
+
+
+
+.content{
+    margin: 25px;
+   padding: 1;
+}
+
+.contact-form{
+    font-size: 2rem;
+}
+
+button {
+    background-color: red;
+  }
+  
+  button:hover {
+    background-color: blue;
+  }
+ 
